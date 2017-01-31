@@ -5,7 +5,10 @@ import java.util.Map;
 
 import org.koushik.javabrains.messenger.model.Message;
 import org.koushik.javabrains.messenger.model.Profile;
-
+/**
+*@author Atul
+*@version 1.0
+*/
 public class DatabaseClass {
 
 	private static Map<Long, Message> messages = new HashMap<>();

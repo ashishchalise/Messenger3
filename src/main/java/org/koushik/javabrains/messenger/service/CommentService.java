@@ -23,6 +23,10 @@ public class CommentService {
 		return new ArrayList<Comment>(comments.values());
 	}
 	
+	
+	
+	
+	
 	public Comment getComment(long messageId, long commentId) {
 		ErrorMessage errorMessage = new ErrorMessage("Not found", 404, "http://javabrains.koushik.org");
 		Response response = Response.status(Status.NOT_FOUND)
